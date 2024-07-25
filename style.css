@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: rgb(87, 15, 73);
+    background: linear-gradient(90deg, rgba(87, 15, 73, 1) 0%, rgba(9, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
+}
+
+.users div {
+  border: 2px solid rgb(14, 75, 188);
+  width: 240%;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  color: white;
+    background-color: rgb(30, 222, 136);
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+
+}
